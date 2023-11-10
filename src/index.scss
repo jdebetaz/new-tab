@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto@400;500;700|Montserrat@400;500;700");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+}
+
+.name {
+    font-family: "Roboto", sans-serif;
+}
